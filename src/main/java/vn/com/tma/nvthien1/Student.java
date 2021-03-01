@@ -12,6 +12,14 @@ public class Student {
 	public Student() {
 	}
 	
+	public Student(String name, float math, float physical, float english) {
+		super();
+		this.name = name;
+		this.math = math;
+		this.physical = physical;
+		this.english = english;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -52,6 +60,4 @@ public class Student {
 	public String toString() {
 		return "Student [name=" + name + ", math=" + math + ", physical=" + physical + ", english=" + english + "]";
 	}
-	
-	
 }
